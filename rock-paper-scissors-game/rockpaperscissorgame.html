@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rock Paper Scissors Game</title>
+        <link rel="stylesheet" href="gamedesign.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=NTR&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1> ROCK, PAPER SCISSORS, GAME!</h1>
+
+        <div class="buttons">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+        </div>
+
+        <div class="results">
+            <p style="color: rgb(87, 173, 226)">Your choice: <span id="playerchoice">---</span></p>
+            <p style="color: rgb(206, 44, 44);">Enemy choice: <span id="enemychoice">---</span></p>
+            <h2>Result: <span id="result">Make a move!</span></h2>
+
+            <h3>Your Score: <span id="playerscore">---</span></h3>
+            <h3>Enemy Score: <span id="enemyscore">---</span></h3>
+        </div>
+
+
+        <button class="reset" id="reset">Reset Scores</button>
+    </body>
+
+    <script src="script.js"></script>
+</html>
